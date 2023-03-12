@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- CSS personnel !-->
+    <link rel="stylesheet" href="style.css" />
+    <!-- font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <div class="background" style="background-image: url('');">
+    <title>Portfolio</title>
+    <link href="https://mmorgat.ydns.eu/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    </head>
+    <body data-spy="scroll" data-target="#menu">
+        <nav class="navbar navbar-expand-lg navbar-dark olive-green sticky-top" id="menu">
+            <img src="image/mathieu/mathieu2.png" width="40" height="40" alt="" loading="lazy">
+            <a class="navbar-brand" href="index.html">⠀Mathieu Morgat</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item page-scroll">
+                        <a class="nav-link" href="">Travaux<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <header id="presentation">
+            <div class="jumbotron no-margin opaque2">
+                <div class="row">
+                    <div class="col-md-10">
+                        <h1 class="display-4">Budokan Thiais</i></h1>
+                        <p class="lead">J'ai eu l'occasion de travailler sur ce site lors de mon stage aupres de l'association d'arts martiaux Budokan.<br>
+                        Mon but etais d'ajouter des fonctionnalitees a la page admin du site. Ce site a ete cree sur le framework Laravel par des eleves de secondes annee qui m'ont precedes.<br>
+                        Ce stage m'a donc permis d'apprendre le fonctionnement des frameworks, ainsi que d'analyser du code plus avance et plus consequent. J'ai donc pu ajouter differents onglets suplementaires a la page admin.<br>
+                        Ces onglets sont : Page d'appel, Inscription aux disciplines et la page des cours.<br>
+                        Sur ces onglets je peut voir les differents elements stockes dans la base de donnee, en rajouter, supprimer et modifier.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div style="margin:40px;">
+            <div class="row">
+                <h2>Elements du site :</h2><br>
+                <div class="col-md-8" style="margin:auto;">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-background">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active data-interval="2000"s">
+                                    <img src="image/budokan-admin.png" class="d-block w-100" alt="..." />
+                                    <div class="carousel-caption d-none d-md-block carousel-background rounded_border2">
+                                        <h5 class="gametitle">Page admin</h5>
+                                        <p>Page admin crée par les éleves de 2nde année </p>
+                                    </div>
+                                </div>
+                            <div class="carousel-item data-interval="2000"">
+                                <img src="image/budokan-appel.png" class="d-block w-100" alt="..."/>
+                                <div class="carousel-caption d-none d-md-block carousel-background rounded_border2">
+                                    <h5 class="gametitle">Appel</h5>
+                                    <p>Page admin permettant de créer une fiche d'appel grace a un formulaire</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item data-interval="2000"">
+                                <img src="image/budokan-cours.png" class="d-block w-100" alt="..."/>
+                                <div class="carousel-caption d-none d-md-block carousel-background rounded_border2">
+                                    <h5 class="gametitle">Cours</h5>
+                                    <p>Page admin permettant de gérer les cours du club</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item data-interval="2000"">
+                                <img src="image/budokan-inscrip.png" class="d-block w-100" alt="..."/>
+                                <div class="carousel-caption d-none d-md-block carousel-background rounded_border2">
+                                    <h5 class="gametitle">Inscriptions</h5>
+                                    <p>Page admin permettant de gérer les inscriptions aux disciplines</p>
+                                </div>
+                            </div>
+                        </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>  
+            </div> 
+        </div>
+        <div class="jumbotron no-margin opaque2" id="competences">
+           
+        </div>
+        <footer class="footer text-center no-margin">
+            <div class="container mt-auto">
+                <hr>
+                <p> &copy; 1ms2021 </p>
+                <hr>
+            </div>
+        </footer>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>

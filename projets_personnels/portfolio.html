@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0" />
+        <meta http-equiv="cache-control" content="max-age=0" />
+        <meta http-equiv="expires" content="0" />
+        <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+        <meta http-equiv="pragma" content="no-cache" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <!-- CSS personnel !-->
+        <link rel="stylesheet" href="../style.css" />
+
+        <!-- font awesome-->
+        <script src="https://kit.fontawesome.com/731cc9a451.js" crossorigin="anonymous"></script>
+        <div class="background" style="background-color:rgb(50, 71, 102);">
+        <title>Serveur Raspberry pi</title>
+        <link href="https://mmorgat.ydns.eu/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    </head>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark deep-blue sticky-top" id="menu">
+        
+        <div class="container-fluid">
+            <img src="../image/mathieu/mathieu2.png" width="40" height="40" alt="" loading="lazy" style="margin-left: 10px;">
+            <a class="navbar-brand" href="../index.html">⠀Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#presentation">Présentation</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Travaux</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../projets_scolaires/rpg.html">Travail Terminale</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#bts">Travail BTS SIO <img src="../image/icons/caret-right-fill.svg" style="margin-left:17px"></img> </a>
+                                <ul class="dropdown-menu sub-menu">
+                                    <li style="margin-left:5px;text-decoration: underline;">1re année :</li>
+                                    <li><a class="dropdown-item" href="../projets_scolaires/fansite.html">Valve Fansite</a></li>
+                                    <li><a class="dropdown-item" href="../projets_scolaires/bonbon.html">Site Bonbons</a></li>
+                                    <li><a class="dropdown-item" href="../projets_scolaires/musique.html">Site Musique</a></li>
+                                    <li style="margin-left:5px;text-decoration: underline;">2nde année :</li>
+                                    <li><a class="dropdown-item" href="../projets_scolaires/sicily.html">SicilyLines</a></li>
+                                    <li><a class="dropdown-item" href="../projets_scolaires/banque.html">TP Banque</a></li>
+                                    <li><a class="dropdown-item" href="../projets_scolaires/android.html">Android Studio</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#stages">Travail stages <img src="../image/icons/caret-right-fill.svg" style="margin-left:25px"></img></a>
+                                <ul class="dropdown-menu sub-menu">
+                                    <li style="margin-left:5px;text-decoration: underline;">1re année :</li>
+                                    <li><a class="dropdown-item" href="../stages/budokan.html">Budokan club</a></li>
+                                    <li style="margin-left:5px;text-decoration: underline;">2nde année :</li>
+                                    <li><a class="dropdown-item" href="../stages/gallimedia.html">Gallimedia</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#personnel">Travail personnel <img src="../image/icons/caret-right-fill.svg"></img></a>
+                                <ul class="dropdown-menu sub-menu" style="margin-top:60px">
+                                    <li><a class="dropdown-item" href="portfolio.html">Portfolio</a></li>
+                                    <li><a class="dropdown-item" href="odroid-nas.html">Odroid NAS</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#site">Contenu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#competences">Compétences</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <body data-spy="scroll" data-target="#menu" data-offset="0">
+
+        <header id="presentation" class="navMargin">
+            <div class="jumbotron no-margin opaque2">
+                <div class="row no-margin">
+                    <div class="col-md-2" style="width:fit-content" >
+                        <img src="../image/raspberrypi/raspberrypi.jpg" width="400" height="180" style="margin:50px">
+                    </div>
+                    <div class="col-md-7" style="margin-top:20px;">
+                        <h1 class="display-4 bahnschrift_title">Serveur Raspberry pi :</i></h1>
+                        <p class="lead bahnschrift_text">
+                            Pour héberger mon site portfolio, j'ai mis en place un serveur Apache sur une Raspberry pi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div id="site" style="margin-top:30px;height: 90vh;">
+            <div class="col-md-1" style="margin-bottom:20px;"></div>
+            <h2 class="bahnschrift_title" style="padding-left:30px;margin-bottom: 0px;color:rgb(219, 219, 219);width: 65%;">Images du projet :</h2><br>
+            <div class="row no-margin">
+                <div class="col-md-2" style="margin-bottom:20px;">
+                </div>
+                <div class="col-md" style="margin-bottom:20px;color:rgb(219, 219, 219);width: 65%;">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="max-height:900px;max-width:1000px;margin-left:100px">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../image/raspberrypi/piweb-switch-low.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block carousel-background rounded_border2">
+                                    <h5>Raspberry pi</h5>
+                                    <p>Actuellement dans le boîtier officiel. Elle est branchée via ethernet sur un switch réseau et ne requiert pas d'écran pour fonctionner</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../image/raspberrypi/piweb-open-low.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block carousel-background rounded_border2">
+                                    <h5>Boîtier ouvert</h5>
+                                    <p>Voici l'intérieur du boîtier. Un ventilateur, ainsi qu'un radiateur ont été ajoutés</p>
+                                </div>
+                            </div><div class="carousel-item">
+                                <img src="../image/raspberrypi/piweb-ssh.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block carousel-background rounded_border2">
+                                    <h5>Accès SSH</h5>
+                                    <p>Accès au terminal de la Raspberry pi via SSH avec PuTTY</p>
+                                </div>
+                            </div><div class="carousel-item">
+                                <img src="../image/raspberrypi/piweb-scp.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block carousel-background rounded_border2">
+                                    <h5>Transfert de fichiers</h5>
+                                    <p>Synchronisation des fichiers via SFTP avec WinSCP</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../image/raspberrypi/grafana.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block carousel-background rounded_border2">
+                                    <h5>Tableau de bord Grafana</h5>
+                                    <p>Page d'accueil du tableau de bord Grafana, non configuré</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-2" style="margin-bottom:20px;">
+                </div>
+            </div>
+        </div> 
+
+        <div class="opaque2 navMargin" style="margin-top:30px;">
+            <h2 class="bahnschrift_title" style="margin-bottom:30px; margin-left:30px;margin-top:-40px">Explication :</h2>
+            <div class="row no-margin bahnschrift_text" style="margin-top:-20px;">
+                <div class="col-md-1" style="margin-bottom:20px;"></div>
+                <div class="col-md" style="margin-bottom:20px;width: 65%;">
+                    Pour mettre en place un serveur Apache sur une Raspberry pi, 
+                    j'ai installé et paramétré différents logiciels et packets Linux, 
+                    tel qu'un pare feu ou bien la gestion automatique des packets / upgrades / DNS.<br>
+                    <br>
+                    <!-- Lister et présenter les méthodes logicielles, etc, mises en place
+                    
+                    Évolutions : 
+                    -Mettre en place des hot backups de la carte SD.
+                    -Migrer de RaspbianOS gnome vers Raspbian Lite afin de n'avoir que les packets nécessaires au bon fonctionnement du serveur web.
+
+                    -->
+
+                    <!-- <br><div style="width:100%; padding-bottom:56.25%; position:relative;">
+                        <iframe name="vieux" id="vieux" src="Portfolio vieux/index.html" style="position:absolute; top:0px; left:0px; 
+                        width:100%; height:100%; border: none; overflow: hidden;"></iframe>
+                    </div><br> -->
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <br>
+            <h2 class="bahnschrift_title" style="margin-bottom:30px; margin-left:30px;margin-top:-40px">Liste des packets installés :</h2> 
+            <div id="packet" class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md">
+                    <div class="row scrolling" style="border:1.5mm ridge rgb(68, 94, 167);border-radius: 15px;margin-bottom: 30px;">
+                        
+                        <div class="col-md" style="margin:30px">
+                            <ul>
+                                <li>
+                                    Serveur : 
+                                </li><br>
+                                <ul>
+                                    <li>
+                                        Apache : Mise en place du serveur Apache afin d'héberger en ligne mon site portfolio.
+                                    </li><br>
+                                    <li>
+                                        Php : Utilisation de PHP pour les pages web
+                                    </li><br>
+                                    <li>
+                                        Certbot : Créé par Letsencrypt afin de faciliter le processus d'obtention de certificat SSL pour avoir des connexions HTTPS.<br>
+                                        La configuration de virtualhost Apache / création de clés et l'obtention de certificats sont automatisés.
+                                    </li><br>
+                                </ul> 
+                                <li>
+                                    Utilitaires : 
+                                </li><br>
+                                <ul>
+                                    <li>
+                                        Nano : Éditeur de texte, utilisé pour changer les fichiers systèmes et visualiser les logs.
+                                    </li><br>
+                                    <li>
+                                        Unzip : Utilitaire de décompression de fichier zip.
+                                    </li><br>
+                                    <li>
+                                        Wget : Téléchargements de fichiers / packets ou logiciels via HTTP ou HTTPS.
+                                    </li><br>
+                                    <li>
+                                        Curl : Récupération de contenu via une URL
+                                    </li><br>
+                                    <li>
+                                        Git : Récupération de repositories et projets open source.
+                                    </li><br>
+                                </ul>
+                                <li>
+                                    Networking et sécurité : 
+                                </li><br>
+                                <ul>
+                                    <li>
+                                        Ufw : Pare feu paramétré afin d’autoriser les connexions seulement sur les ports nécessaires.
+                                    </li><br>
+                                    <li>
+                                        OpenVPN : Serveur VPN me permettant de me connecter à distance sur mon réseau local. Il créé une paire de clés pour chaque utilisateur voulu avec mot de passe afin de sécuriser l'accès
+                                    </li><br>
+                                    <li>
+                                        Fail2ban : Protection contre le crack par force brute du mot de passe SSH. Ban au bout de x connexions ratées les adresses IP.
+                                    </li><br>
+                                    <li>
+                                        Unnatended-upgrades : Automatisation via des cronjob des mises a jour système.
+                                    </li><br>
+                                    <li>
+                                        Grafana :  Tableau de bord qui permet de visualiser en temps réel de Data Source. Utilise le port 3000.<br>
+                                        Data Sources utilisés par grafana :
+                                    </li><br>
+                                    <ul>
+                                        <li>
+                                            Prometheus : Monitoring de l'état du serveur via des graphs. Utilise le port 9090.
+                                        </li><br>
+                                        <li>
+                                            Loki : Gestion et visualisation des logs. Utilise le port 3100.
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-1"></div>
+
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+
+        <div id="" class="navMargin">
+            <br>
+            <h2 style="margin-left:30px;margin-right:auto;color:rgb(219, 219, 219);width: 65%;">Logiciels utilisés :</h2><br>
+            <div class="row no-margin" style="margin-top:-20px;margin-bottom:20px;">
+                <div class="col-md-1" style="margin-bottom:20px;">
+                </div>
+                <div class="col-md" style="margin-bottom:20px; color:rgb(219, 219, 219);width: 65%;">
+                    <ul>
+                        <li>
+                            Visual studio code : Utilisé sur mes ordinateurs afin de coder en local sur le portfolio.
+                        </li>
+                        <li>
+                            PuTTY : Logiciel utilisé afin d'accéder via SSH au terminal de ma Raspberry pi.
+                        </li>
+                        <li>
+                            WinSCP : 
+                        </li>
+                        <li>
+                            OpenVPN connect : Client de connexion SSH à un serveur OpenVPN. Requiert d'importer un fichier de paramétrage OpenVPN crée côté serveur.
+                        </li>
+                        <li>
+                            VNC Viewer : Accès au bureau GNOME de ma Raspberry pi à distance, sans avoir besoin d'écran (headless access).<br>
+                            Je vais bientôt abandonner cette manière d'accéder à ma Raspberry pi, en migrant vers une installation CLI de Raspberry pi OS.
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-1" style="margin-bottom:20px;">
+                </div>
+            </div>
+        </div>
+        <!-- <div id="wip" class="row no-margin">
+            <div class="col-md-5"></div>
+            <div class="col-md"  style="margin-top:20px;margin-bottom: 20px;">
+                <i class="fa-solid fa-person-digging fa-10x"></i><br>
+                En cours de réalisation
+            </div>
+            <div class="col-md-5"></div>
+        </div> -->
+
+        <footer class="footer text-center no-margin opaque2">
+            <div class="container mt-auto">
+                <hr>
+                <p> Mathieu Morgat &copy; 1ms2021-2022 </p>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md">
+                        <a href="mailto:morgatmathieu@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a><br>
+                        <a href="mailto:morgatmathieu@gmail.com" target="_blank">morgatmathieu@gmail.com</a>
+                    </div>
+                    <div class="col-md">
+                        <a href="https://fr.linkedin.com/in/mathieu-morgat-46b241200/" target="_blank"><i class="fa-brands fa-linkedin"></i></a><br>
+                        <a href="https://fr.linkedin.com/in/mathieu-morgat-46b241200/">Compte Linkedin</a>
+                    </div>
+                    <div class="col-md">
+                        <a href="https://github.com/V4nkor" target="_blank"><i class="fa-brands fa-github"></i></a><br>
+                        <a href="https://github.com/V4nkor">Compte GitHub</a>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+                <hr>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    </body>
+</html>
