@@ -1,9 +1,9 @@
-<body data-spy="scroll" data-target="#menu" data-offset="0">
+ <body data-spy="scroll" data-target="#menu" data-offset="0">
         <header id="presentation" class="navMargin">
             <div class="jumbotron no-margin opaque2">
                 <div class="row no-margin">
                     <div class="col-md-3" style="width:fit-content" >
-                        <img src="image/mathieu/mathieu2.png" width="200" height="200" style="margin-left:50px;margin-top:50px;margin-right:50px;">
+                        <img src="style/image/mathieu/mathieu2.png" width="200" height="200" style="margin-left:50px;margin-top:50px;margin-right:50px;">
                     </div>
                     <div class="col-md-8" style="margin-top:20px;">
                         <h1 class="display-4 bahnschrift_title">Portfolio :</i></h1>
@@ -12,7 +12,7 @@
                             Actuellement en Licence professionnelle PRISM à l'IUT d'Orsay, je souhaite poursuivre mon parcours en informatique vers un Master en développement chez Sup de Vinci.
                         </p>
                         <h5 class="card-text">Voici mon CV :</h5>
-                        <a class="btn deep-blue btn-lg" href="image/mathieu/CV-mathieu.png" target="blank" style="color:white;margin-bottom: 20px;">Ouvrir format image</a>
+                        <a class="btn deep-blue btn-lg" href="style/image/mathieu/CV-mathieu.png" target="blank" style="color:white;margin-bottom: 20px;">Ouvrir format image</a>
                         <a href="document/cv-mathieu-morgat.pdf" class="btn deep-blue btn-lg" style="color:white;margin-left:auto;margin-bottom: 20px;" target="_blank"><i class="fa fa-download"></i> Ouvrir format PDF</a>
                     </div>
                 </div>
@@ -56,27 +56,27 @@
                                     <h2>Première année :</h2>
                                     <div class="row">
                                         <div class="card" style="width: 30rem;margin: auto;margin-top:20px">
-                                            <img src="image/fansite/fansite-valve1.png" class="card-img-top" alt="...">
+                                            <img src="style/image/fansite/fansite-valve1.png" class="card-img-top" alt="...">
                                             <div class="card-body">
                                                 <h5 class="card-title">Valve Fansite</h5>
                                                 <p class="card-text bahnschrift_text">Réalisation d’un fan site à l’aide de Bootstrap</p>
-                                                <a href="projets_scolaires/fansite.html" class="btn btn-primary deep-blue">Voir plus de détails</a>
+                                                <a href="index?page=fansite" class="btn btn-primary deep-blue">Voir plus de détails</a>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 30rem;margin: auto;margin-top:20px">
-                                            <img src="image/bonbon/bonbon-admin.png" class="card-img-top" alt="...">
+                                            <img src="style/image/bonbon/bonbon-admin.png" class="card-img-top" alt="...">
                                             <div class="card-body">
                                                 <h5 class="card-title">Bonbons</h5>
                                                 <p class="card-text bahnschrift_text">Ce site a été réalisé pour tester et comprendre la communication entre PHP et une BDD MySQL</p>
-                                                <a href="projets_scolaires/bonbon.html" class="btn btn-primary deep-blue">Voir plus de détails</a>
+                                                <a href="index?page=bonbon" class="btn btn-primary deep-blue">Voir plus de détails</a>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 30rem;margin: auto;margin-top:20px">
-                                            <img src="image/musique/musique-home.png" class="card-img-top" alt="...">
+                                            <img src="style/image/musique/musique-home.png" class="card-img-top" alt="...">
                                             <div class="card-body">
                                                 <h5 class="card-title">Musique</h5>
                                                 <p class="card-text bahnschrift_text">Le site musique a été réalisé pour l’évaluation des connaissances et acquis de fin de première année en PHP</p>
-                                                <a href="projets_scolaires/musique.html" class="btn btn-primary deep-blue">Voir plus de détails</a>
+                                                <a href="index?page=musique" class="btn btn-primary deep-blue">Voir plus de détails</a>
                                             </div>
                                         </div>
                                     </div>
@@ -84,39 +84,39 @@
                                     <h2>Seconde année :</h2>
                                     <div class="row">
                                         <div class="card" style="width: 30rem;margin: auto;">
-                                            <img src="image/sicilyLines/sicilyLines-moqups.png" class="card-img-top" alt="...">
+                                            <img src="style/image/sicilyLines/sicilyLines-moqups.png" class="card-img-top" alt="...">
                                             <div class="card-body">
                                                 <h5 class="card-title">SicilyLines</h5>
                                                 <p class="card-text bahnschrift_text">Projet intégral de conception et programmation de site web</p>
-                                                <a href="projets_scolaires/sicily.html" class="btn btn-primary deep-blue">Voir plus de détails</a>
+                                                <a href="index?page=sicily" class="btn btn-primary deep-blue">Voir plus de détails</a>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 30rem;margin: auto;">
-                                            <img src="image/banque/banque-projet.png" class="card-img-top" alt="...">
+                                            <img src="style/image/banque/banque-projet.png" class="card-img-top" alt="...">
                                             <div class="card-body">
                                                 <h5 class="card-title">TP banque</h5>
                                                 <p class="card-text bahnschrift_text">Le but de ce TP logiciel était de maîtriser Visual Studio</p>
-                                                <a href="projets_scolaires/banque.html" class="btn btn-primary deep-blue">Voir plus de détails</a>
+                                                <a href="index?page=banque" class="btn btn-primary deep-blue">Voir plus de détails</a>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 30rem;margin: auto;">
-                                            <img src="image/android/android-project.png" class="card-img-top" alt="...">
+                                            <img src="style/image/android/android-project.png" class="card-img-top" alt="...">
                                             <div class="card-body">
                                                 <h5 class="card-title">Android studio</h5>
                                                 <p class="card-text bahnschrift_text">
                                                     Le but de ce TP était d'adapter le site SicilyLines en application android
                                                 </p>
-                                                <a href="projets_scolaires/android.html" class="btn btn-primary deep-blue">Voir plus de détails</a>
+                                                <a href="index?page=android" class="btn btn-primary deep-blue">Voir plus de détails</a>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 30rem;margin: auto;">
-                                            <img src="image/logos/placeholder-image.png" class="card-img-top" alt="...">
+                                            <img src="style/image/logos/placeholder-image.png" class="card-img-top" alt="...">
                                             <div class="card-body">
                                                 <h5 class="card-title">Veille informatique</h5>
                                                 <p class="card-text bahnschrift_text">
                                                     Mise en place d'outils de veille informatique
                                                 </p>
-                                                <a href="projets_personnels/veille.html" class="btn btn-primary deep-blue" >Voir plus en détails</a>
+                                                <a href="index?page=veille" class="btn btn-primary deep-blue" >Voir plus en détails</a>
                                             </div>
                                         </div>
                                     </div>
@@ -125,9 +125,9 @@
                         </div>
                         <hr>
                         <div class="accordion-item" style="padding-bottom:15px" >
-                            <h2 class="accordion-header navMargin" id="stages">
+                            <h2 class="accordion-header navMargin" id="professionel">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="font-size:x-large">
-                                    Projets lors de stages :
+                                    Realisations professionelles :
                                 </button>
                             </h2>
     
@@ -135,19 +135,27 @@
                                 <div class="accordion-body">
                                     <div class="row">
                                         <div class="card" style="width: 30rem;margin: auto;">
-                                            <img src="image/budokan/budokan-admin.png" class="card-img-top" alt="...">
+                                            <img src="style/image/budokan/budokan-admin.png" class="card-img-top" alt="...">
                                             <div class="card-body">
                                                 <h5 class="card-title">Budokan club</h5>
                                                 <p class="card-text bahnschrift_text">Stage de fin de 1ère année</p>
-                                                <a href="stages/budokan.html" class="btn btn-primary deep-blue">Voir plus de détails</a>
+                                                <a href="index?page=budokan" class="btn btn-primary deep-blue">Voir plus de détails</a>
                                             </div>
                                         </div>
                                         <div class="card" style="width: 30rem;margin: auto;">
-                                            <img src="image/gallimedia/gallimedia-logo.png" class="card-img-top" alt="...">
+                                            <img src="style/image/gallimedia/gallimedia-logo.png" class="card-img-top" alt="...">
                                             <div class="card-body">
                                                 <h5 class="card-title">Gallimedia</h5>
                                                 <p class="card-text bahnschrift_text">Stage de 7 semaines de 2ème année dans une entreprise de prestations web.</p>
-                                                <a href="stages/gallimedia.html" class="btn btn-primary deep-blue">Voir plus de détails</a>
+                                                <a href="index?page=gallimedia" class="btn btn-primary deep-blue">Voir plus de détails</a>
+                                            </div>
+                                        </div>
+                                        <div class="card" style="width: 30rem;margin: auto;">
+                                            <img src="style/image/gallimedia/deltexplan-logo.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Deltexplan</h5>
+                                                <p class="card-text bahnschrift_text">Alternance d'un an dans une entreprise de BTP</p>
+                                                <a href="index?page=deltexplan" class="btn btn-primary deep-blue">Voir plus de détails</a>
                                             </div>
                                         </div>
                                     </div>
@@ -166,9 +174,9 @@
                                     <div class="row">
                                         Mon projet le plus aboutit est la réalisation d'un serveur Apache à l'aide d'une Raspberry pi accessible par les protocoles SSH, SFTP et HTTPS.<br>
                                         Mon site portfolio est hébergé sur ce serveur.<br>
-                                        <a href="projets_personnels/portfolio.html" class="btn deep-blue btn-lg" style="color:white;margin-top: 20px;">Voir plus en détails</a><br>
+                                        <a href="index?page=portfolio" class="btn deep-blue btn-lg" style="color:white;margin-top: 20px;">Voir plus en détails</a><br>
                                         Un autre projet personnel en cours de réalisation est un NAS réalisé avec un Odroid HC4 sous Open Media Vault. Il est accessible à distance via un tunnel OpenVPN hébergé sur une Raspberry pi.
-                                        <a href="projets_personnels/odroid-nas.html" class="btn deep-blue btn-lg" style="color:white;margin-top: 20px;">Voir plus en détails</a>
+                                        <a href="index?page=nas" class="btn deep-blue btn-lg" style="color:white;margin-top: 20px;">Voir plus en détails</a>
                                     </div>
                                 </div>
                             </div>
@@ -219,13 +227,13 @@
                                     <li>Interfaces swing</li>
                                 </ul>
                                 <br>
-                                <li>Visual studio C# <img src="image/icons/Csharp.png" style="width:18px;padding-bottom:5px"></li>
+                                <li>Visual studio C# <img src="style/image/icons/Csharp.png" style="width:18px;padding-bottom:5px"></li>
                                 <ul>
                                     <li>Création d'applications windows form</li>
                                 </ul>
                                 <li>XML / DTD schéma / XPath</li>
                                 <br>
-                                <li>Bases C <img src="image/icons/C.png" style="width:18px;padding-bottom:2px"></li>
+                                <li>Bases C <img src="style/image/icons/C.png" style="width:18px;padding-bottom:2px"></li>
                                 <ul>
                                     <li>Librairie graphique</li>
                                 </ul>

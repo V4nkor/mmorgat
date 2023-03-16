@@ -1,104 +1,10 @@
-<!doctype html>
-<html lang="fr">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0" />
-        <meta http-equiv="cache-control" content="max-age=0" />
-        <meta http-equiv="expires" content="0" />
-        <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
-        <meta http-equiv="pragma" content="no-cache" />
-
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-        <!-- CSS personnel !-->
-        <link rel="stylesheet" href="../style.css" />
-
-        <!-- font awesome-->
-        <script src="https://kit.fontawesome.com/731cc9a451.js" crossorigin="anonymous"></script>
-
-        <!-- CSS Prism -->
-        <link href="../prism.css" rel="stylesheet" />
-
-        <div class="background" style="background-color:rgb(50, 71, 102);">
-        <title>RPG</title>
-        <link rel="icon" type="../image/png" sizes="16x16" src="../image/mathieu/mathieu2.png">
-    </head>
-    
-    <nav class="navbar navbar-expand-lg navbar-dark deep-blue sticky-top" id="menu">
-        
-        <div class="container-fluid">
-            <img src="../image/mathieu/mathieu2.png" width="40" height="40" alt="" loading="lazy" style="margin-left: 10px;">
-            <a class="navbar-brand" href="../index.html">⠀Portfolio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#presentation">Présentation</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Travaux</a>
-
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            
-                            <li><a class="dropdown-item" href="rpg.html">Travail Terminale</a></li>
-                            <li>
-                                <a class="dropdown-item" href="#bts">Travail BTS SIO <img src="../image/icons/caret-right-fill.svg"  style="margin-left:17px"></img> </a>
-                                <ul class="dropdown-menu sub-menu">
-                                    <li style="margin-left:5px;text-decoration: underline;">1re année :</li>
-                                    <li><a class="dropdown-item" href="fansite.html">Valve Fansite</a></li>
-                                    <li><a class="dropdown-item" href="bonbon.html">Site Bonbons</a></li>
-                                    <li><a class="dropdown-item" href="musique.html">Site Musique</a></li>
-                                    <li style="margin-left:5px;text-decoration: underline;">2nde année :</li>
-                                    <li><a class="dropdown-item" href="sicily.html">SicilyLines</a></li>
-                                    <li><a class="dropdown-item" href="banque.html">TP Banque</a></li>
-                                    <li><a class="dropdown-item" href="android.html">Android Studio</a></li>
-                                </ul>
-                            </li>
-                            <li><a class="dropdown-item" href="#stages">Travail stages <img src="../image/icons/caret-right-fill.svg" style="margin-left:25px"></img></a>
-                                <ul class="dropdown-menu sub-menu">
-                                    <li style="margin-left:5px;text-decoration: underline;">1re année :</li>
-                                    <li><a class="dropdown-item" href="../stages/budokan.html">Budokan club</a></li>
-                                    <li style="margin-left:5px;text-decoration: underline;">2nde année :</li>
-                                    <li><a class="dropdown-item" href="../stages/gallimedia.html">Gallimedia</a></li>
-                                </ul>
-                            </li>
-                            <li><a class="dropdown-item" href="../index.html#personnel">Travail personnel <img src="../image/icons/caret-right-fill.svg"></img></a>
-                                <ul class="dropdown-menu sub-menu" style="margin-top:60px">
-                                    <li><a class="dropdown-item" href="../projets_personnels/portfolio.html">Portfolio</a></li>
-                                    <li><a class="dropdown-item" href="../projets_personnels/odroid-nas.html">Odroid NAS</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#site">Contenu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#competences">Compétences</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#code">Snippets code</a>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-
-    </nav>
-
     <body data-spy="scroll" data-target="#menu" data-offset="0">
 
         <header id="presentation" class="navMargin">
             <div class="jumbotron no-margin opaque2">
                 <div class="row no-margin">
                     <div class="col-md-2" style="width:fit-content" >
-                        <img src="../image/rpg/personnage.png" width="200" height="200" style="margin-left:50px;margin-top:50px;margin-right:50px;">
+                        <img src="style/image/rpg/personnage.png" width="200" height="200" style="margin-left:50px;margin-top:50px;margin-right:50px;">
                     </div>
                     <div class="col-md-7" style="margin-top:20px;">
                         <h1 class="display-4 bahnschrift_title">RPG :</i></h1>
@@ -107,7 +13,7 @@
                             Le jeu consistait en un simple RPG en tour par tour. Malheureusement, nous n’avons pas pu achever le projet en fin de terminale.
                         </p>
                         <h5>Bouton de téléchargement du projet. Le fichier zip contient le .exe, les DLL nécessaires pour faire tourner le projet, ainsi que le code source :</h5>
-                        <a href="rpg/RPG_ISN.zip" download class="btn deep-blue btn-lg" style="color:white;margin-left:auto;margin-bottom: 20px;" target="_blank"><i class="fa fa-download"></i>Télécharger le projet</a>
+                        <a href="showcase/rpg/RPG_ISN.zip" download class="btn deep-blue btn-lg" style="color:white;margin-left:auto;margin-bottom: 20px;" target="_blank"><i class="fa fa-download"></i>Télécharger le projet</a>
                     </div>
                 </div>
             </div>
@@ -128,28 +34,28 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="../image/rpg/rpg-schema.png" class="d-block w-100" alt="...">
+                                <img src="style/image/rpg/rpg-schema.png" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block carousel-background rounded_border2">
                                     <h5>Schéma du jeu</h5>
                                     <p>Schéma préparatoire pour la création du UI créé avec Affinity Photo</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="../image/rpg/rpg-chevalier.png" class="d-block w-100" alt="...">
+                                <img src="style/image/rpg/rpg-chevalier.png" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block carousel-background rounded_border2">
                                     <h5>Création sprites</h5>
                                     <p>Créations de sprites et d'icônes via le logiciel Aseprite</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="../image/rpg/rpg-fenetre.png" class="d-block w-100" alt="...">
+                                <img src="style/image/rpg/rpg-fenetre.png" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block carousel-background rounded_border2">
                                     <h5>Fenêtre RPG</h5>
                                     <p>Au lancement, le RPG initialise un héro et un goblin avec des stats prédéfinies</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="../image/rpg/rpg-game-over.png" class="d-block w-100" alt="...">
+                                <img src="style/image/rpg/rpg-game-over.png" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block carousel-background rounded_border2">
                                     <h5>Game Over</h5>
                                     <p>Lorsque les PV du joueur tombent à zero, la partie se termine. De même pour les PV du goblin</p>
@@ -322,34 +228,3 @@ void affichage_nom_ennemi(CHARACTER ennemi)
                 <div class="col-md-5"></div>
             </div>
         </div>
-
-        <footer class="footer text-center no-margin opaque2">
-            <div class="container mt-auto">
-                <hr>
-                <p> Mathieu Morgat &copy; 1ms2021-2022 </p>
-                <div class="row">
-                    <div class="col-md-2"></div>
-                    <div class="col-md">
-                        <a href="mailto:morgatmathieu@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a><br>
-                        <a href="mailto:morgatmathieu@gmail.com" target="_blank">morgatmathieu@gmail.com</a>
-                    </div>
-                    <div class="col-md">
-                        <a href="https://fr.linkedin.com/in/mathieu-morgat-46b241200/" target="_blank"><i class="fa-brands fa-linkedin"></i></a><br>
-                        <a href="https://fr.linkedin.com/in/mathieu-morgat-46b241200/">Compte Linkedin</a>
-                    </div>
-                    <div class="col-md">
-                        <a href="https://github.com/V4nkor" target="_blank"><i class="fa-brands fa-github"></i></a><br>
-                        <a href="https://github.com/V4nkor">Compte GitHub</a>
-                    </div>
-                    <div class="col-md-2"></div>
-                </div>
-                <hr>
-            </div>
-        </footer>
-
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-        <script src="../prism.js"></script>
-
-  </body>
-</html>
