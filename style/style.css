@@ -110,3 +110,13 @@ div.scrolling {
   overflow-x: hidden;
   overflow-y: auto;
 }
+
+.button {
+  padding:8px;
+  font-size : 20px;
+  color:white;
+  font-family: "Bahnschrift-SemiCondensed";
+  border-radius: 5px;
+  border:none;
+  margin: 0px 0px 20px;
+}

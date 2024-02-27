@@ -12,8 +12,8 @@
                             Actuellement en Licence professionnelle PRISM à l'IUT d'Orsay, je souhaite poursuivre mon parcours en informatique vers un Master en développement chez Sup de Vinci.
                         </p>
                         <h5 class="card-text">Voici mon CV :</h5>
-                        <a class="btn deep-blue btn-lg" href="style/image/mathieu/CV-mathieu.png" target="blank" style="color:white;margin-bottom: 20px;">Ouvrir format image</a>
-                        <a href="document/cv-mathieu-morgat.pdf" class="btn deep-blue btn-lg" style="color:white;margin-left:auto;margin-bottom: 20px;" target="_blank"><i class="fa fa-download"></i> Ouvrir format PDF</a>
+                        <a href="style/image/mathieu/CV-mathieu.png" target="blank"><button class="button deep-blue">Ouvrir format image</button></a>
+                        <a href="document/cv-mathieu-morgat.pdf" target="_blank"><button class="deep-blue button"><i class="fa fa-download"></i> Ouvrir format PDF</button></a>
                     </div>
                 </div>
             </div>
@@ -143,7 +143,7 @@
                                             </div>
                                         </div>
                                         <div class="card" style="width: 30rem;margin: auto;">
-                                            <img src="style/image/gallimedia/gallimedia-logo.png" class="card-img-top" alt="...">
+                                            <img src="style/image/gallimedia/logo.png" class="card-img-top" alt="...">
                                             <div class="card-body">
                                                 <h5 class="card-title">Gallimedia</h5>
                                                 <p class="card-text bahnschrift_text">Stage de 7 semaines de 2ème année dans une entreprise de prestations web.</p>
@@ -151,7 +151,7 @@
                                             </div>
                                         </div>
                                         <div class="card" style="width: 30rem;margin: auto;">
-                                            <img src="style/image/gallimedia/deltexplan-logo.png" class="card-img-top" alt="...">
+                                            <img src="style/image/deltexplan/deltexplan-logo.png" class="card-img-top" alt="...">
                                             <div class="card-body">
                                                 <h5 class="card-title">Deltexplan</h5>
                                                 <p class="card-text bahnschrift_text">Alternance d'un an dans une entreprise de BTP</p>
